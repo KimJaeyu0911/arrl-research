@@ -1,0 +1,127 @@
+{
+    "subjects": [
+  {
+    "description": "A full-size humanoid robot with a predominantly white exterior shell and exposed black and metallic mechanical components at the joints. The robot has a smooth, featureless white head with no eyes, mouth, nose, or other facial features. Its body has a slender, streamlined humanoid structure with visible mechanical joints and segmented white armor panels.",
+
+    "appearance_details": "The robot has a clean white exterior with black mechanical components visible between the body panels, particularly around the shoulders, elbows, hips, knees, and ankles. Its head is a completely smooth, blank white shell with no facial features or illuminated elements. The torso, arms, and legs are composed of multiple articulated sections, giving it a distinctly robotic and mechanical appearance. The white body panels catch the surrounding light with subtle highlights and reflections.",
+
+    "relationship": "Sole active subject in the scene, standing in a dark studio-like environment",
+
+    "location": "Center-left of frame, standing on a dark floor",
+
+    "relative_size": "Large within frame",
+
+    "orientation": "Facing slightly toward the camera, with its body oriented somewhat to the right",
+
+    "pose": "Standing upright with both arms hanging naturally at its sides and both feet positioned on the floor",
+
+    "action": "Walks toward the right, makes direct contact with the wall, then kneels down",
+
+    "state_changes": "The robot walks continuously toward the right side of the room until its body directly contacts the wall. The robot must visibly reach the wall before changing its movement. Upon contact, its forward motion stops abruptly and its upper body and head move slightly backward from the contact. It then pauses briefly, slowly bends both knees, lowers its body to the floor, and transitions into a kneeling position. After kneeling, it raises both hands toward its blank face and makes small, subtle up-and-down movements with its head.",
+
+    "clothing": "",
+
+    "expression": "",
+
+    "gender": "",
+
+    "age": "",
+
+    "skin_tone_and_texture": "",
+
+    "facial_features": "None. The head is a completely smooth, featureless white shell with no eyes, mouth, nose, lights, or facial markings.",
+
+    "number_of_subjects": 1,
+
+    "number_of_arms": 2,
+
+    "number_of_legs": 2
+  }
+],
+    "background_setting": "A dark, studio-like indoor space with a black and deep gray color palette, featuring a smooth dark gray or black floor that subtly reflects the lighting. The background wall is almost black, with a simple, minimalist appearance and no visible decorations or furniture. Strong, cool-white lighting illuminates the left and central areas, creating sharp highlights and a dramatic contrast between the brightly lit subject area and the dark surroundings. On the right side of the background, large, soft-edged shadows are cast onto the wall, with their outlines appearing faintly through the darkness. The floor and wall blend together naturally in the low light, making the space appear large, empty, and open. The overall setting resembles a modern exhibition space or professional photography studio, with a minimalist composition, extensive negative space on the right, dramatic low-key lighting, and a quiet yet slightly tense atmosphere.",
+    "lighting": {
+      "conditions": "Dramatic studio lighting with cool-white directional light illuminating the humanoid robot against a dark black and deep-gray background, creating a high-contrast, cinematic environment",
+      "direction": "Primary light from the upper-left/front, strongly illuminating the robot's head, torso, arms, and legs, supplemented by softer ambient light from the surrounding space",
+      "shadows": "Soft but clearly visible shadows cast by the robot onto the dark floor and background wall, with the robot's silhouette appearing prominently on the right side, creating depth without excessively harsh shadow edges",
+      "illumination_effect": "Cool, futuristic atmosphere with strong directional lighting emphasizing the robot's white and metallic panels, producing subtle highlights and reflections across its body while contrasting sharply with the dark surroundings"
+    },
+    "aesthetics": {
+    "composition": "The robot is positioned slightly left of center in the frame, with a large area of dark negative space extending to the right. The minimal background and strong contrast between the illuminated robot and the dark environment create a focused, cinematic composition", 
+    "color_scheme": "A predominantly monochromatic palette of black, deep grey, white, and metallic tones, with the robot's bright blue illuminated eyes providing a subtle cool-color accent. The white exterior panels contrast strongly against the dark studio environment",
+    "mood_atmosphere": "Dark, futuristic, and cinematic atmosphere with a minimalist studio setting. The strong contrast between the brightly illuminated humanoid robot and the surrounding darkness creates a dramatic and slightly mysterious mood",
+    "patterns": ""
+    },
+    "cinematography": {
+    "camera_motion": "Static camera with minimal stabilization adjustment, maintaining the robot's position within the frame throughout the movement",
+    "framing": "Full-body wide shot capturing the robot from head to toe with sufficient surrounding floor and background space to clearly show its body movements and interaction with the environment",
+    "camera_angle": "Eye-level camera angle with a slightly frontal perspective, clearly showing the robot's humanoid proportions, mechanical joints, and illuminated eyes",
+    "depth_of_field": "Deep",
+    "focus": "Sharp focus on the robot throughout the action, with the robot's white exterior panels, mechanical joints, and blue illuminated eyes remaining clearly visible while the dark background gradually falls into softer detail",
+    "lens_focal_length": "35mm equivalent, providing a moderately wide field of view that captures the full robot and sufficient surrounding environment without significant distortion"
+    },
+
+    "style_medium": "CGI photorealistic render composited into a live-action setting",
+    "artistic_style": "Photorealistic, cinematic, minimalist science-fiction",
+    "context": "A humanoid robot in a dark studio-like environment walks toward the right, collides with a wall, then kneels down and displays behavior resembling sadness or crying",
+    "actions": [
+  {
+    "time": "0:00-0:02",
+    "description": "The featureless white humanoid robot walks continuously toward the right side of the room. It does not kneel, stop, or raise its hands during this interval."
+  },
+  {
+    "time": "0:02-0:03",
+    "description": "The robot reaches the wall and its body visibly makes direct contact with the wall. The forward motion stops at the moment of contact, and the robot's upper body and head recoil slightly backward."
+  },
+  {
+    "time": "0:03-0:05",
+    "description": "After the wall contact, the robot remains briefly stationary, then slowly bends both knees and lowers its body into a kneeling position."
+  },
+  {
+    "time": "0:05-0:07",
+    "description": "The robot remains kneeling, raises both hands toward its featureless head with the palms facing inward, and makes very small, slow up-and-down movements with its head."
+  }
+],
+
+    "text_and_signage_elements": [],
+    "segments": [
+  {
+    "segment_index": 0,
+    "time_range": "0:00-0:02",
+    "description": "The featureless white humanoid robot continuously walks toward the right side of the room without stopping or changing posture.",
+    "key_changes": "The robot moves continuously from its initial standing position toward the wall on the right.",
+    "camera": "Static wide shot, keeping the full robot in frame"
+  },
+  {
+    "segment_index": 1,
+    "time_range": "0:02-0:03",
+    "description": "The robot reaches the wall and directly contacts it. Its forward movement stops at the moment of contact, followed by a small backward recoil of the upper body and head.",
+    "key_changes": "Clear transition from continuous walking to direct wall contact, abrupt stop, and brief recoil.",
+    "camera": "Static camera capturing the robot's approach, wall contact, and recoil"
+  },
+  {
+    "segment_index": 2,
+    "time_range": "0:03-0:05",
+    "description": "After the wall contact, the robot briefly remains stationary and then slowly lowers itself onto both knees.",
+    "key_changes": "Transition from standing after the collision to a controlled kneeling position.",
+    "camera": "Static camera maintaining the same wide framing"
+  },
+  {
+    "segment_index": 3,
+    "time_range": "0:05-0:07",
+    "description": "The robot remains kneeling, raises both hands toward its completely featureless head, and makes small, subtle up-and-down head movements.",
+    "key_changes": "Transition from kneeling into the final hand-to-face pose with subtle head movement.",
+    "camera": "Static camera maintaining the same wide framing"
+  }
+],
+
+    "transitions": [],
+    "temporal_caption": "The video begins with a featureless white humanoid robot standing upright in a dark studio-like environment. From 0:00 to 0:02, the robot continuously walks toward the right side of the room. During this entire interval, it does not kneel, stop, or raise its hands. At approximately 0:02, the robot reaches the wall and makes direct physical contact with it. Its forward movement stops at the exact moment of contact, and its upper body and head recoil slightly backward. From 0:03 to 0:05, the robot remains briefly stationary and then slowly bends both knees and lowers its body into a kneeling position. From 0:05 to 0:07, the robot remains on its knees, raises both hands toward its completely featureless head with the palms facing inward, and makes very small, slow up-and-down movements with its head.",
+    "resolution": {
+        "W": 1280,
+        "H": 720
+    },
+
+    "aspect_ratio": "16,9",
+    "duration": "7s",
+    "fps": 24
+}

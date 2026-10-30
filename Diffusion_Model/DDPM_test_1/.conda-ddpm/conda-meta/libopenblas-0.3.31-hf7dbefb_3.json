@@ -1,0 +1,79 @@
+{
+  "name": "libopenblas",
+  "version": "0.3.31",
+  "build": "hf7dbefb_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "libopenblas-0.3.31-hf7dbefb_3.conda",
+  "md5": "a3a48ee4392984c62d7e803875a2f515",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libopenblas-0.3.31-hf7dbefb_3.conda",
+  "sha256": "ef134f78c2c3a66994c5c3125f25d1acc44fdb09a17bccff7b2f91c9ea7bbd10",
+  "depends": [
+    "__glibc >=2.28,<3.0.a0",
+    "libgcc >=14",
+    "libgfortran",
+    "libgfortran5 >=14.3.0"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1782493870000,
+  "size": 5935977,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/home/arrl/miniconda3/pkgs/libopenblas-0.3.31-hf7dbefb_3.conda",
+  "extracted_package_dir": "/home/arrl/miniconda3/pkgs/libopenblas-0.3.31-hf7dbefb_3",
+  "files": [
+    "lib/libblas.so",
+    "lib/libcblas.so",
+    "lib/liblapack.so",
+    "lib/libopenblas.so",
+    "lib/libopenblas.so.0",
+    "lib/libopenblasp-r0.3.31.so"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libblas.so",
+        "path_type": "softlink",
+        "sha256": "e93f572ec282edb0d7b4737e8c374ff76be00f2e5cb15639a51387a77311bc8c",
+        "size_in_bytes": 41457408
+      },
+      {
+        "_path": "lib/libcblas.so",
+        "path_type": "softlink",
+        "sha256": "e93f572ec282edb0d7b4737e8c374ff76be00f2e5cb15639a51387a77311bc8c",
+        "size_in_bytes": 41457408
+      },
+      {
+        "_path": "lib/liblapack.so",
+        "path_type": "softlink",
+        "sha256": "e93f572ec282edb0d7b4737e8c374ff76be00f2e5cb15639a51387a77311bc8c",
+        "size_in_bytes": 41457408
+      },
+      {
+        "_path": "lib/libopenblas.so",
+        "path_type": "softlink",
+        "sha256": "e93f572ec282edb0d7b4737e8c374ff76be00f2e5cb15639a51387a77311bc8c",
+        "size_in_bytes": 41457408
+      },
+      {
+        "_path": "lib/libopenblas.so.0",
+        "path_type": "softlink",
+        "sha256": "e93f572ec282edb0d7b4737e8c374ff76be00f2e5cb15639a51387a77311bc8c",
+        "size_in_bytes": 41457408
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.31.so",
+        "path_type": "hardlink",
+        "sha256": "e93f572ec282edb0d7b4737e8c374ff76be00f2e5cb15639a51387a77311bc8c",
+        "size_in_bytes": 41457408,
+        "sha256_in_prefix": "e93f572ec282edb0d7b4737e8c374ff76be00f2e5cb15639a51387a77311bc8c"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/arrl/miniconda3/pkgs/libopenblas-0.3.31-hf7dbefb_3",
+    "type": 1
+  }
+}

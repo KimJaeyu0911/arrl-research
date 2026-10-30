@@ -1,0 +1,31 @@
+{
+  "name": "pybind11-abi",
+  "version": "4",
+  "build": "hd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "subdir": "noarch",
+  "fn": "pybind11-abi-4-hd3eb1b0_1.conda",
+  "md5": "4e440592a9fb70c880b74621aee6c967",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pybind11-abi-4-hd3eb1b0_1.conda",
+  "sha256": "efcd78fff9f39d8d0dc5db753ba1b523f997768f9688ed6d6dcf8e9951484cc1",
+  "depends": [],
+  "constrains": [],
+  "noarch": "generic",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_generic",
+  "timestamp": 1682965564000,
+  "size": 13977,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/home/arrl/miniconda3/pkgs/pybind11-abi-4-hd3eb1b0_1.conda",
+  "extracted_package_dir": "/home/arrl/miniconda3/pkgs/pybind11-abi-4-hd3eb1b0_1",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/arrl/miniconda3/pkgs/pybind11-abi-4-hd3eb1b0_1",
+    "type": 1
+  }
+}

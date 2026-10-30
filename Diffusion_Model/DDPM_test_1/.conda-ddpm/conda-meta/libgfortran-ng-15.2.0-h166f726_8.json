@@ -1,0 +1,31 @@
+{
+  "name": "libgfortran-ng",
+  "version": "15.2.0",
+  "build": "h166f726_8",
+  "build_number": 8,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "libgfortran-ng-15.2.0-h166f726_8.conda",
+  "md5": "d1b303a66498cb6816844d5d06bbe9c9",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libgfortran-ng-15.2.0-h166f726_8.conda",
+  "sha256": "077fe13c96b69fc6b182476aa5a8332260bf591eb6fde75873c16f618ec132ce",
+  "depends": [
+    "libgfortran 15.2.0 h166f726_8"
+  ],
+  "constrains": [],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "timestamp": 1779212990000,
+  "size": 28463,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/home/arrl/miniconda3/pkgs/libgfortran-ng-15.2.0-h166f726_8.conda",
+  "extracted_package_dir": "/home/arrl/miniconda3/pkgs/libgfortran-ng-15.2.0-h166f726_8",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/arrl/miniconda3/pkgs/libgfortran-ng-15.2.0-h166f726_8",
+    "type": 1
+  }
+}

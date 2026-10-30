@@ -1,0 +1,52 @@
+_target_: planning.mpc.MPCPlanner
+max_iter: 10 # unlimited if null
+n_taken_actions: 1 # overridden to goal_H in plan.py
+sub_planner:
+  target: planning.grasp.GRASPPlanner
+  horizon: 5
+  num_virtual_states: all
+  lr_s: 0.1
+  lr_a: 0.001
+  opt_steps: 4000
+  opt: 'adam'
+  eval_every: 10
+  init_noise_level: 0.95
+  state_noise_scale: 0.5
+  rho_init: 1
+  use_gd: True
+  gd_interval: 100
+  gd_opt_steps: 25
+  gd_lr: 0.1
+  init_states_method: cylinder
+  init_actions_gaussian: True
+  init_actions_mean: 0.0
+  init_actions_std: 0.01
+  lr_lagrangian: 0.01
+  gamma_action: 0
+  gamma_lagrangian: 0
+  gamma_action_smooth: 0.0
+  gamma_state_uniform: 0.0
+  gamma_goal: 1.0
+  gamma_bounds: 1000.0
+  bounds_lo: 22.0
+  bounds_hi: 490.0
+  lagrangian_update_threshold: 1
+  use_fixed_lagrangian: false
+  state_noise_max: 1.0
+  state_noise_proprio_only: false
+  gd_use_final_state_only: true
+  gd_accept_reject: false
+  num_parallel_trajectories: 1
+  gd_top_k: 1
+  gd_batch_size: 1
+  constant_noise_schedule: true
+  gamma_decay: 1
+  enable_state_gradient: false
+  action_clamp: 5
+  use_mixed_precision: True
+  compile_world_model: False
+  gradclip_val: 0
+  visualize_states: true
+  scheduler_type: 'none'
+
+name: mpc_grasp

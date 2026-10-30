@@ -1,0 +1,5 @@
+[console_scripts]
+nuscenes-analyze-statistics = scripts.analyze_statistics:main
+nuscenes-build-dataset = scripts.build_dataset:main
+nuscenes-test-components = scripts.test_components:main
+nuscenes-validate-dataset = scripts.validate_dataset:main
